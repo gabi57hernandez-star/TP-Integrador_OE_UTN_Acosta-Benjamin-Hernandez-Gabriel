@@ -1,7 +1,7 @@
 import openpyxl
 from openpyxl import Workbook
 from datetime import datetime
-
+from pathlib import Path 
 
 def nombre_archivo_excel():
     return "comedor_db.xlsx"
@@ -10,7 +10,7 @@ def nombre_archivo_excel():
 def inicializar_base_de_datos():
     archivo = nombre_archivo_excel()
     # Así no perdemos pedidos guardados entre ejecuciones.
-    if os.path.exists(archivo):
+    if Path(archivo).exists():
         return
     
     wb = Workbook()
