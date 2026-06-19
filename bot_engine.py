@@ -19,7 +19,7 @@ from display import mostrar_menu_productos, mostrar_zonas, mostrar_despedida
 
 
 def palabra_cancelar():
-    """Devuelve la palabra clave que cancela la conversación en cualquier momento."""
+    #Devuelve la palabra clave que cancela la conversación en cualquier momento
     return "CANCELAR"
 
 
