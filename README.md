@@ -21,6 +21,7 @@ El proceso manual de toma de pedidos (llamadas telefónicas, anotaciones en pape
 | `display.py` | Funciones de visualización en consola |
 | `comedor_db.xlsx` | Base de datos persistente (productos, zonas, pedidos) |
 
+### Forma de instalacion del programa:
 ### Con terminal bash:
 
 #### 1. Clonar el repositorio
